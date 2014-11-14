@@ -1,0 +1,151 @@
+
+body {
+  font-family: 'Gentium Book Basic', serif;
+  color: white;
+  background-color: #FFDEAD;
+  background: url(../img/background_photo.jpg);
+  padding: 30px;
+  margin: 60px;
+  width: 1280px;
+  height: 1024px;
+}
+
+header {
+  color: white;
+  background-color: #310000;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  opacity:0.6;
+  filter:alpha(opacity=60);
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800
+  text-align: left;
+  border-left: 20px solid #310000;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: white;
+  background-color: #310000;
+  padding: none;
+  margin: none;
+  opacity:0.6;
+  filter:alpha(opacity=60);
+}
+
+h1, h2, h3 {
+  font-size: 2.5em;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    font-size: 0.7em;
+    font-family: 'Monda', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background: #310000;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+
+ nav ul.a {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav a:link, nav a:visited {
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+a:hover, a:active{
+    text-decoration: none;
+}
+
+#details {
+    text-align: left;
+    width: 360px;
+    height: 300px;
+    border: none;
+    padding-left: 30px;
+    background-color: #310000;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+
+#info {
+    text-align: left;
+    width: 360px;
+    height: 150px;
+    border: none;
+    padding-left: 30px;
+    background-color: #310000;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+
+img {
+    float: right;
+    width: 270px;
+    height: 292.5px;
+    padding-right: 30px;
+    margin-right: 60px;
+    border: none;
+}
+
+main {
+    padding-top: 30px;
+    padding-right: 30px;
+    margin-top: 60px;
+    margin-right: 60px;
+}
+
+h4, p {
+  padding-left: 30px;
+  background-color: #310000;
+  opacity:0.6;
+  filter:alpha(opacity=60);
+}
+
+section {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+#things {
+  background-color: #310000;
+  list-style-type: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  opacity:0.6;
+  filter:alpha(opacity=60);
+}
+
+#shows {
+  background-color: #310000;
+  list-style-type: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  opacity:0.6;
+  filter:alpha(opacity=60);
+}

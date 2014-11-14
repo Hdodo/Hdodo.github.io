@@ -1,0 +1,49 @@
+* {
+    color: black;
+    background: transparent;
+    font-size: 12pt;
+    font-family: serif;
+}
+
+@page {
+    margin: 1in;
+}
+
+nav {
+    display: none;
+}
+
+section {
+    float: none;
+    width: 100%;
+}
+
+img {
+  width: 2in;
+  height: 2.20in;
+  float: right;
+  display: none;
+}
+
+img.desaturate { -webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+table {
+    border: none;
+    background: transparent;
+    text-align: left;
+}
+
+footer {
+    color: black;
+    border-top: 1pt solid #000;
+    clear: both;
+}
+
+a[href$=".html"] {
+    display: none;
+}
+
+a[href^="http://"]:after { content: " (" attr(href) ") "; }
