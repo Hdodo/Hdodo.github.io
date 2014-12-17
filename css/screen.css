@@ -5,6 +5,7 @@ body {
   font-family: 'Gentium Book Basic', serif;
   font-size: 16px;
   margin: 0;
+  text-align: left;
 }
 
 h1 {
@@ -25,7 +26,7 @@ body {
 header {
   color: #DCDCDC;
   background: #310000;
-  width: 320px;
+  width: 600px;
 }
 
 h1, h2, h3 {
@@ -47,8 +48,8 @@ section {
   color: #DCDCDC;
   background: #310000;
   text-align: center;
-  width: 320px;
-  margin-left: 80px;
+  width: 600px;
+  margin-left: 60px;
 }
 
 h3 {
@@ -60,6 +61,26 @@ h3 {
 
 h1, h2, h3 {
   font-size: 16px;
+}
+
+#navigation1 {
+  list-style-type: none;
+  font-size: 0.7em;
+  font-family: 'Monda', sans-serif;
+  text-transform: uppercase;
+  background: #310000;
+  width: 320px;
+  text-align: left;
+}
+
+#navigation2 {
+  list-style-type: none;
+  font-size: 0.7em;
+  font-family: 'Monda', sans-serif;
+  text-transform: uppercase;
+  background: #310000;
+  width: 320px;
+  text-align: left;
 }
 
 nav li {
@@ -107,6 +128,12 @@ a:hover, a:active{
     border: none;
 }
 
+#education {
+  text-align: left;
+  background: #310000;
+  width: 320px;
+}
+
 #shirt {
     width: 320px;
     height: 240px;
@@ -121,6 +148,7 @@ a:hover, a:active{
 
 h4, p {
   background: #310000;
+  width: 320px;
 }
 
 #things {
