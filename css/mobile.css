@@ -1,7 +1,9 @@
 @media only screen (max-device-width: 320px) {
 
   body {
-    background: none;
+    background: url(../img/background_photo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-size: 12px;
     max-width: 320px;
   }
