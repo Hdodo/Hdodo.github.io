@@ -1,3 +1,13 @@
+body {
+  background: url(../img/background_photo.jpg);
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
 
 body {
   font-family: 'Gentium Book Basic', serif;
@@ -13,18 +23,17 @@ body {
 header {
   color: #DCDCDC;
   background-color: #310000;
-  padding-left: 30px;
-  padding-top: 20px;
-  padding-bottom: 30px;
   background-color: hsla(0,100%,10%,0.6);
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
 }
 
 section {
     color: #DCDCDC;
     margin-top: 0px;
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 30px;
 }
 
 #mainpage {
@@ -34,54 +43,26 @@ section {
 #heading {
   color: #DCDCDC;
   background-color: #310000;
-  padding-left: 0px;
-  padding-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 30px;
   background-color: hsla(0,100%,10%,0.6);
   text-align: center;
-  width: 793px;
-}
-
-#homepage li {
-  padding-left: 160px;
-  padding-right: 160px;
-  width: 55px;
-}
-
-#navigation2 li {
-  padding-left: 70px;
-  padding-right: 70px;
-}
-
-h1, h2, h3 {
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  padding-left:30px;
 }
 
 h3 {
   color: #DCDCDC;
   background-color: #310000;
   margin: none;
-  width: 860px;
   background-color: hsla(0,100%,10%,0.6);
 }
 
 h1, h2, h3 {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 nav li {
-    float: left;
     list-style-type: none;
     font-size: 0.7em;
     font-family: 'Monda', sans-serif;
     text-transform: uppercase;
-    display: inline-block;
-    margin-right: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
     background: #310000;
     background-color: hsla(0,100%,10%,0.6);
 }
@@ -89,20 +70,15 @@ nav li {
 nav ul.a {
     list-style-type: none;
     margin: 0;
-    overflow: hidden;
 }
 
 nav a:link, nav a:visited {
     text-decoration: none;
-    display: block;
     color: #DCDCDC;
-    text-align: center;
-    padding: 4px;
 }
 
 a:link, a:visited {
     text-decoration: none;
-    display: block;
     color: #DCDCDC;
 }
 
@@ -112,70 +88,45 @@ a:hover, a:active{
 
 #details {
     text-align: left;
-    width: 360px;
-    height: 300px;
-    border: none;
-    padding-left: 30px;
     background-color: hsla(0,100%,10%,0.6);
 }
 
 #info {
     text-align: left;
-    width: 360px;
-    height: 150px;
-    border: none;
-    padding-left: 30px;
     background-color: hsla(0,100%,10%,0.6);
 }
 
 #headshot {
-    float: right;
     width: 200px;
     height: 216px;
-    padding: 15px;
-    margin-right: 15px;
     border: none;
 }
 
 #shirt {
-    width:699px;
-    height:524px;
-    border:none;
+    width: 320px;
+    height: 240px;
+    border: none;
 }
 
 #poster {
-    width:699px;
-    height:1080px;
-    border:none;
-}
-
-main {
-    padding-top: 30px;
-    padding-right: 30px;
-    margin-top: 60px;
-    margin-right: 60px;
+    width: 320px;
+    height: 494px;
+    border: none;
 }
 
 h4, p {
-  padding-left: 30px;
   background-color: hsla(0,100%,10%,0.6);
-  width: 860px;
 }
 
 #things {
   background-color: #310000;
   list-style-type: none;
-  padding-top: 30px;
-  padding-bottom: 30px;
   background-color: hsla(0,100%,10%,0.6);
-  width: 840px;
 }
 
 #shows {
   background-color: #310000;
   list-style-type: none;
-  padding-top: 30px;
-  padding-bottom: 30px;
   background-color: hsla(0,100%,10%,0.6);
   width: 840px;
 }
