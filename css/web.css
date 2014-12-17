@@ -1,40 +1,74 @@
 
 body {
   font-family: 'Gentium Book Basic', serif;
-  color: white;
+  color: #DCDCDC;
   background-color: #FFDEAD;
   background: url(../img/background_photo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 30px;
-  margin: 60px;
-  width: 1280px;
-  height: 1024px;
+  margin: 160px;
+  width: 960px;
+  height: 640px;
+  position: center;
 }
 
 header {
-  color: white;
+  color: #DCDCDC;
   background-color: #310000;
   padding-left: 30px;
   padding-top: 20px;
   padding-bottom: 30px;
-  opacity:0.6;
-  filter:alpha(opacity=60);
+  background-color: hsla(0,100%,10%,0.6);
+}
+
+section {
+    color: #DCDCDC;
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#mainpage {
+  margin-left: 200px;
+}
+
+#heading {
+  color: #DCDCDC;
+  background-color: #310000;
+  padding-left: 0px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: hsla(0,100%,10%,0.6);
+  text-align: center;
+  width: 793px;
+}
+
+#homepage li {
+  padding-left: 160px;
+  padding-right: 160px;
+  width: 55px;
+}
+
+#navigation2 li {
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 800
-  text-align: left;
-  border-left: 20px solid #310000;
   text-transform: uppercase;
+  padding-left:30px;
 }
 
 h3 {
-  color: white;
+  color: #DCDCDC;
   background-color: #310000;
-  padding: none;
   margin: none;
-  opacity:0.6;
-  filter:alpha(opacity=60);
+  width: 860px;
+  background-color: hsla(0,100%,10%,0.6);
 }
 
 h1, h2, h3 {
@@ -49,14 +83,13 @@ nav li {
     text-transform: uppercase;
     display: inline-block;
     margin-right: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
     background: #310000;
-    opacity:0.6;
-    filter:alpha(opacity=60);
+    background-color: hsla(0,100%,10%,0.6);
 }
 
- nav ul.a {
+nav ul.a {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
@@ -65,7 +98,7 @@ nav li {
 nav a:link, nav a:visited {
     text-decoration: none;
     display: block;
-    color: white;
+    color: #DCDCDC;
     text-align: center;
     padding: 4px;
 }
@@ -73,7 +106,7 @@ nav a:link, nav a:visited {
 a:link, a:visited {
     text-decoration: none;
     display: block;
-    color: white;
+    color: #DCDCDC;
 }
 
 a:hover, a:active{
@@ -86,9 +119,7 @@ a:hover, a:active{
     height: 300px;
     border: none;
     padding-left: 30px;
-    background-color: #310000;
-    opacity:0.6;
-    filter:alpha(opacity=60);
+    background-color: hsla(0,100%,10%,0.6);
 }
 
 #info {
@@ -97,18 +128,28 @@ a:hover, a:active{
     height: 150px;
     border: none;
     padding-left: 30px;
-    background-color: #310000;
-    opacity:0.6;
-    filter:alpha(opacity=60);
+    background-color: hsla(0,100%,10%,0.6);
 }
 
-img {
+#headshot {
     float: right;
-    width: 270px;
-    height: 292.5px;
-    padding-right: 30px;
-    margin-right: 60px;
+    width: 200px;
+    height: 216px;
+    padding: 15px;
+    margin-right: 15px;
     border: none;
+}
+
+#shirt {
+    width:699px;
+    height:524px;
+    border:none;
+}
+
+#poster {
+    width:699px;
+    height:1080px;
+    border:none;
 }
 
 main {
@@ -120,16 +161,8 @@ main {
 
 h4, p {
   padding-left: 30px;
-  background-color: #310000;
-  opacity:0.6;
-  filter:alpha(opacity=60);
-}
-
-section {
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    text-align: left;
+  background-color: hsla(0,100%,10%,0.6);
+  width: 860px;
 }
 
 #things {
@@ -137,8 +170,8 @@ section {
   list-style-type: none;
   padding-top: 30px;
   padding-bottom: 30px;
-  opacity:0.6;
-  filter:alpha(opacity=60);
+  background-color: hsla(0,100%,10%,0.6);
+  width: 840px;
 }
 
 #shows {
@@ -146,6 +179,6 @@ section {
   list-style-type: none;
   padding-top: 30px;
   padding-bottom: 30px;
-  opacity:0.6;
-  filter:alpha(opacity=60);
+  background-color: hsla(0,100%,10%,0.6);
+  width: 840px;
 }
