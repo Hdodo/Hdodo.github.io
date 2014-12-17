@@ -1,0 +1,120 @@
+
+body {
+  font-family: 'Gentium Book Basic', serif;
+  color: black;
+  background: none;
+  position: center;
+}
+
+header {
+  color: #DCDCDC;
+  background-color: #310000;
+}
+
+section {
+    color: #DCDCDC;
+}
+
+#heading {
+  color: #DCDCDC;
+  background-color: #310000;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #DCDCDC;
+  background-color: #310000;
+  margin: none;
+}
+
+h1, h2, h3 {
+  font-size: 2.5em;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    font-size: 0.7em;
+    font-family: 'Monda', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #310000;
+}
+
+nav ul.a {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav a:link, nav a:visited {
+    text-decoration: none;
+    display: block;
+    color: #DCDCDC;
+    text-align: center;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    display: block;
+    color: #DCDCDC;
+}
+
+a:hover, a:active{
+    text-decoration: none;
+}
+
+#details {
+    text-align: left;
+    width: 360px;
+    height: 300px;
+    border: none;
+    color: black;
+}
+
+#info {
+    text-align: left;
+    width: 360px;
+    height: 150px;
+    border: none;
+    color: black;
+}
+
+#headshot {
+    float: right;
+    width: 200px;
+    height: 216px;
+    margin-right: 15px;
+    border: none;
+}
+
+#shirt {
+    width:699px;
+    height:524px;
+    border:none;
+}
+
+#poster {
+    width:699px;
+    height:1080px;
+    border:none;
+}
+
+h4, p {
+  color: black;
+}
+
+#things {
+  color: black;
+  list-style-type: none;
+}
+
+#shows {
+  color: black;
+  list-style-type: none;
+}
