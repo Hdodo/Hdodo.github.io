@@ -62,7 +62,7 @@ h1, h2, h3 {
   font-size: 16px;
 }
 
-#navigation1 {
+#navigation1 li {
   list-style-type: none;
   font-size: 0.7em;
   font-family: 'Monda', sans-serif;
@@ -72,7 +72,7 @@ h1, h2, h3 {
   text-align: left;
 }
 
-#navigation2 {
+#navigation2 li {
   list-style-type: none;
   font-size: 0.7em;
   font-family: 'Monda', sans-serif;
