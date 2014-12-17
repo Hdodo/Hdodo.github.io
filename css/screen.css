@@ -26,13 +26,12 @@ body {
 header {
   color: #DCDCDC;
   background: #310000;
-  width: 600px;
+  width: 400px;
 }
 
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
-  width: 320px;
 }
 
 section {
@@ -48,7 +47,7 @@ section {
   color: #DCDCDC;
   background: #310000;
   text-align: center;
-  width: 600px;
+  width: 300px;
   margin-left: 60px;
 }
 
