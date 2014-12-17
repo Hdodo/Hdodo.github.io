@@ -68,7 +68,7 @@ h1, h2, h3 {
   font-family: 'Monda', sans-serif;
   text-transform: uppercase;
   background: #310000;
-  width: 320px;
+  width: 200px;
   text-align: left;
 }
 
@@ -78,7 +78,7 @@ h1, h2, h3 {
   font-family: 'Monda', sans-serif;
   text-transform: uppercase;
   background: #310000;
-  width: 320px;
+  width: 200px;
   text-align: left;
 }
 
@@ -88,13 +88,13 @@ nav li {
     font-family: 'Monda', sans-serif;
     text-transform: uppercase;
     background: #310000;
-    width: 320px;
+    width: 200px;
 }
 
 nav ul.a {
     list-style-type: none;
     margin: 0;
-    width: 320px;
+    width: 200px;
 }
 
 nav a:link, nav a:visited {
