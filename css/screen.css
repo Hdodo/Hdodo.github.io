@@ -145,7 +145,20 @@ a:hover, a:active{
     border: none;
 }
 
+.mp4 {
+  width: 320px;
+  height: 215px;
+  border: none;
+}
+
+
+
 h4, p {
+  background: #310000;
+  width: 320px;
+}
+
+ul {
   background: #310000;
   width: 320px;
 }
