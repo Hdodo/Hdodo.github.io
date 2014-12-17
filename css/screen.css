@@ -6,10 +6,7 @@ body {
   background: url(../img/background_photo.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 30px;
-  margin: 160px;
-  width: 960px;
-  height: 640px;
+  margin: 0px;
   position: center;
 }
 
@@ -24,14 +21,14 @@ header {
 
 section {
     color: #DCDCDC;
-    margin-top: 60px;
+    margin-top: 0px;
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 30px;
 }
 
 #mainpage {
-  margin-left: 200px;
+  margin-left: 0px;
 }
 
 #heading {
@@ -72,7 +69,7 @@ h3 {
 }
 
 h1, h2, h3 {
-  font-size: 2.5em;
+  font-size: 12px;
 }
 
 nav li {
