@@ -24,11 +24,13 @@ header {
   color: #DCDCDC;
   background-color: #310000;
   background-color: hsla(0,100%,10%,0.6);
+  width: 320px;
 }
 
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
+  width: 320px;
 }
 
 section {
@@ -45,13 +47,13 @@ section {
   background-color: #310000;
   background-color: hsla(0,100%,10%,0.6);
   text-align: center;
+  width: 320px;
 }
 
 h3 {
   color: #DCDCDC;
   background-color: #310000;
   margin: none;
-  background-color: hsla(0,100%,10%,0.6);
 }
 
 h1, h2, h3 {
@@ -64,7 +66,6 @@ nav li {
     font-family: 'Monda', sans-serif;
     text-transform: uppercase;
     background: #310000;
-    background-color: hsla(0,100%,10%,0.6);
 }
 
 nav ul.a {
@@ -88,12 +89,12 @@ a:hover, a:active{
 
 #details {
     text-align: left;
-    background-color: hsla(0,100%,10%,0.6);
+    background: #310000;
 }
 
 #info {
     text-align: left;
-    background-color: hsla(0,100%,10%,0.6);
+    background: #310000;
 }
 
 #headshot {
@@ -115,18 +116,16 @@ a:hover, a:active{
 }
 
 h4, p {
-  background-color: hsla(0,100%,10%,0.6);
+  background: #310000;
 }
 
 #things {
-  background-color: #310000;
+  background: #310000;
   list-style-type: none;
-  background-color: hsla(0,100%,10%,0.6);
 }
 
 #shows {
-  background-color: #310000;
+  background: #310000;
   list-style-type: none;
-  background-color: hsla(0,100%,10%,0.6);
-  width: 840px;
+  width: 320px;
 }
